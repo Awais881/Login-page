@@ -1,0 +1,68 @@
+
+h1{
+position: absolute;
+top: 125px;
+right: 160px;
+color: #333333;
+
+
+
+}
+.contianer{
+    display: flex;
+    align-items: center;
+       
+
+}
+.field {
+    width: 450px;
+    height: 56px;
+    border-radius: 4px;
+    position: relative;
+    transition: 0.3s all;
+    padding: 10px;
+    outline: none;
+    border: none;
+  }
+  .field:focus {
+    border: 1px solid blue;
+    border-radius: 8px;
+
+
+ 
+  }  
+  form{
+  position: relative;
+  left: 110px;
+  bottom: 120px;
+  }
+ .checkbox{
+    display: flex;
+   justify-content: flex-start;
+   color: #999999;
+ }
+ .submit{
+   background-color: #6675DF;
+   color: #ffffff;
+   width: 450px;
+    height: 56px;
+    border-radius: 12px;
+    border: none;
+
+ }
+ .signup{
+    color: #999999;
+ 
+position: relative;
+  left:  230px;
+ }  
+ .twitter{
+    width: 60px;
+ }
+ .facebook{
+    width: 105px;
+ }
+.social{
+   display: flex;
+   justify-content: center;
+}
