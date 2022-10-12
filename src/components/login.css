@@ -1,9 +1,11 @@
 
-h1{
+.h1{
 position: absolute;
-top: 125px;
+top: 100px;
 right: 160px;
 color: #333333;
+font-size: 30px;
+
 
 
 
@@ -14,6 +16,7 @@ color: #333333;
        
 
 }
+
 .field {
     width: 450px;
     height: 56px;
@@ -23,14 +26,25 @@ color: #333333;
     padding: 10px;
     outline: none;
     border: none;
+    
   }
   .field:focus {
     border: 1px solid blue;
     border-radius: 8px;
+  
 
 
  
-  }  
+  } 
+  .check {
+   width: 17px;
+   /* background-color: #ffffff; */
+
+  } 
+  .field::placeholder{
+   color: #999999;
+   font-size: 20px;
+  }
   form{
   position: relative;
   left: 110px;
@@ -50,19 +64,46 @@ color: #333333;
     border: none;
 
  }
+ .submit:hover{
+  background-color: #333333;
+  cursor: pointer;
+ }
  .signup{
     color: #999999;
+    font-size: 13px;
  
 position: relative;
-  left:  230px;
+  left:  250px;
+ 
  }  
  .twitter{
-    width: 60px;
+    width: 50px;
+    position: relative;
+  left:  215px;
+  cursor: pointer;
+     
+ 
  }
  .facebook{
-    width: 105px;
+    width: 85px;
+    position: relative;
+  left:  236px;
+  cursor: pointer;
+     
+  
  }
-.social{
+ .facebook:hover{
+   background-color: #333333;
+ }
+/* .social{
    display: flex;
    justify-content: center;
+   margin-right: 30px;
+ 
+} */
+.forget{
+    margin-left: 200px;
+color: #555555;
+
 }
+
